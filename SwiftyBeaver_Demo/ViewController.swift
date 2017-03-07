@@ -8,16 +8,11 @@
 
 import UIKit
 
-import SwiftyBeaver
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let log = SwiftyBeaver.self
-        
-        log.verbose(view)
+        log.debug("1233333")
     }
 
     override func didReceiveMemoryWarning() {
